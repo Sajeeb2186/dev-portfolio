@@ -157,10 +157,51 @@ main section {
 
 /* resume related style  */
 
-resume-column-title {
+.resume-column-title {
   color: #474747;
 
   font-size: 30px;
 
   font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-title-description,
+.resume-item-institute {
+  color: #757575;
+}
+
+.resume-container hr {
+  margin: 30px;
+}
+
+.resume-item-title {
+  color: #474747;
+
+  font-size: 25px;
+
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-item-institution{
+    color:  #757575;
+font-family: "Open Sans";
+font-size: 20px;
+
+font-weight: 600;
+
+margin-bottom: 20px;
+margin-top: 0px;
+
+}
+
+
+.download-cv{
+    text-align: center;
+    margin-top:50px;
 }
